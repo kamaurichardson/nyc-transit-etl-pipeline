@@ -1,0 +1,25 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local datasets
+data/raw/*
+data/processed/*
+
+# Keep data folders in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Local databases
+*.db
+
+# Operating system files
+.DS_Store
